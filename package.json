@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build2": "ng build --project=@tots/account-core --configuration production && cd dist/tots/account-core/ && npm publish --access public",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
