@@ -2,6 +2,13 @@
  * Public API Surface of account-core
  */
 
-export * from './lib/account-core.service';
-export * from './lib/account-core.component';
+/**
+ * Entities
+ */
+export * from './lib/entities/tots-account';
+export * from './lib/entities/tots-account-permission';
+
+/**
+ * Modules
+ */
 export * from './lib/account-core.module';
