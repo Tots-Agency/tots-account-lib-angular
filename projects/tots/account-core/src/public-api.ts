@@ -14,6 +14,11 @@ export * from './lib/entities/tots-account-permission';
 export * from './lib/services/tots-account.service';
 
 /**
+ * Resolvers
+ */
+export * from './lib/resolvers/tots-account.resolver';
+
+/**
  * Modules
  */
 export * from './lib/account-core.module';
