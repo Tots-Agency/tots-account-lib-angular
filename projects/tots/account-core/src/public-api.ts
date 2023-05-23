@@ -19,6 +19,11 @@ export * from './lib/services/tots-account.service';
 export * from './lib/resolvers/tots-account.resolver';
 
 /**
+ * Interceptors
+ */
+export * from './lib/interceptors/tots-account.interceptor';
+
+/**
  * Modules
  */
 export * from './lib/account-core.module';
